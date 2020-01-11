@@ -7,7 +7,7 @@
 .contact-box {
 	@extend %flexbox;
 	@include flex-flow(wrap);
-	max-width: 750px;
+	max-width: 1045px;
 	margin: 0 auto;
 
 	form {
