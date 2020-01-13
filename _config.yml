@@ -68,6 +68,12 @@ defaults:
     values:
       full_width: true
 
+  - 
+    scope:
+      path: "results.html"
+    values:
+      full_width: true
+
 jekyll-archives:
   enabled:
     - categories
