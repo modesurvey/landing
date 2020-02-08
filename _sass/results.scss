@@ -1,0 +1,35 @@
+.results > .container {
+    color: #fff;
+    .subtext {
+        color: #fff;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+.results {
+    background: #e9f0f7;
+    background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+
+    .content {
+        background: transparent;
+        .container {
+            background: #fff;
+            border-radius: 6px;
+            padding: 20px 0;
+            p {
+                font-size:1.8rem;
+            }
+            h2 {
+                text-align: left;
+                font-size:3.5rem;
+            }
+        }
+        section {
+            padding: 50px 0;
+        }
+        .flex {
+            align-items: unset;
+        }
+    }
+}
