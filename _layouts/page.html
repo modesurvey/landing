@@ -2,10 +2,10 @@
 layout: default
 ---
 <div class="content">
-	<section class="page">
+	<section class="page {{ page.title | slugify }}">
 		<div class="container {% if page.full_width %}max-container{% endif %}">
 			{% if page.heading %}
-				<h2>{{ page.heading }}</h2>
+				<h1>{{ page.heading }}</h1>
 			{% elsif page.title and page.layout != 'archive' %}
 				<h2>{{ page.title }}</h2>
 			{% endif %}
