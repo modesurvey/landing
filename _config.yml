@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /android-chrome-512x512.png
 description: How do people reach businesses? Bike, Car, Bus, Walk data from real surveys
 author:
   name:
@@ -68,7 +68,7 @@ defaults:
     values:
       full_width: true
 
-  - 
+  -
     scope:
       path: "results.html"
     values:
