@@ -60,5 +60,33 @@
 				return false;
 			};
 		</script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBo4oAKy6fbnRm14fz1GNcj29KLQRqiIWA",
+        authDomain: "surveybox-fe69c.firebaseapp.com",
+        databaseURL: "https://surveybox-fe69c.firebaseio.com",
+        projectId: "surveybox-fe69c",
+        storageBucket: "surveybox-fe69c.appspot.com",
+        messagingSenderId: "171882631659",
+        appId: "1:171882631659:web:1df9fbaf0b00d5841dc9ae",
+        measurementId: "G-1NMZZBJP2D"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    
+    <script>
+      const db = firebase.firestore();
+    </script>
+
 	</body>
 </html>
